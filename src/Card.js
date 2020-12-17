@@ -16,6 +16,15 @@ const Card = ({url}) => {
             </div>
             {/* Meme image */} 
             <img className="meme-image" src={url} alt=""/>
+            {/* add side arrows */}
+            <div className="side-arrows">
+                <div className="side-arrow-left">
+                    <i class="fa fa-arrow-left fa-stack-1x fa-inverse"></i>
+                </div>
+                <div className="side-arrow-right">
+                    <i class="fa fa-arrow-right fa-stack-1x fa-inverse"></i>
+                </div>
+            </div>
             {/* Add buttons on the bottom (via Font Awesome) */}
             <div className="bottom-of-card">
                 {/* return button */}

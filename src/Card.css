@@ -75,6 +75,39 @@
     */
 }
 
+.side-arrow-left {
+    text-align: center; 
+    vertical-align: bottom; 
+    position: absolute;
+    font-size: 40px; 
+    left: 37.5%;
+    top: 50%; 
+    /*
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    */
+}
+
+.side-arrow-left:hover {
+    opacity: .5; 
+}
+
+.side-arrow-right {
+    text-align: center; 
+    vertical-align: bottom; 
+    position: absolute;
+    font-size: 40px; 
+    right: 39.5%;
+    top: 50%; 
+}
+
+.side-arrow-right:hover {
+    background-color: blue; 
+    opacity: .8; 
+}
+
 .reaction-icons i {
     display: inline-block; 
     margin: 15px auto; 
