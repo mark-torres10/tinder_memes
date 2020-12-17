@@ -30,9 +30,15 @@
     height: 90%; 
 }
 
+.top-of-card {
+    background-color: blue; 
+    width: 100%; 
+    border-radius: 20px 20px 0 0; 
+}
+
 .bottom-of-card {
     background-color: red; 
-    height: 10%; 
+    height: 15%; 
     width: 100%; 
     border-radius: 0 0 20px 20px; 
     /*
@@ -46,6 +52,34 @@
     */
 }
 .reaction-icons {
-    color: blue; 
     display: inline-block; 
+    font-size: 40px; 
+    background-color: black; 
+    text-align: center; 
+    vertical-align: bottom; 
+    position: relative; 
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50px; 
+    margin: 5% 0 5% 2%; 
+    
+    
+    /*display: inline-block;
+    margin: auto;
+    padding-top: 10px;
+    min-height:100px;
+    width: 75%;
+    position: relative;
+    background-color: rgb(204, 38, 38);
+    border: 2px solid black
+    */
+}
+
+.reaction-icons i {
+    display: inline-block; 
+    margin: 15px auto; 
+}
+
+.reaction-icons:hover {
+    transform: scale(1.1); 
 }
